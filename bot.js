@@ -120,11 +120,7 @@ client.on('ready', () => {
   client.channels.find(ch => ch.id === "508330495927648280" && ch.type === 'voice').join();//اكتب اي دي روم صوت هنا
 });
 
-client.on('ready', () => {
-    console.log(`Logged in as ${client.user.tag} !`);
-          client.user.setActivity("By KarZo-M7mod",{type: 'WATCHING'});
-  
-  });
+
 
 
 
