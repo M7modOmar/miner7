@@ -73,7 +73,7 @@ client.on('ready', () => console.log('By Rie'));//كلام يظهر فل كون�
 //ProBot Miner V3 
 //Better Quality & Fast Mining & Better Minning = More Credits
 
-var prefix = "1";
+var prefix = "7";
 const pr1 = ['427855446225846272' , '502907623641972757' , ''];
 
 
@@ -101,7 +101,7 @@ client.on('message', message => {
   // we ignore it
   if (!message.guild) return;
 
-  if (message.content === '1join') {
+  if (message.content === '7join') {
     // Only try to join the sender's voice channel if they are in one themselves
     if (message.member.voiceChannel) {
       message.member.voiceChannel.join()
